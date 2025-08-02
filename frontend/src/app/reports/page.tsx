@@ -24,7 +24,7 @@ import {
   Filter
 } from 'lucide-react';
 import { format } from 'date-fns';
-import { toast } from 'sonner';
+import { toast } from '@/components/ui/use-toast';
 
 interface Report {
   id: string;
